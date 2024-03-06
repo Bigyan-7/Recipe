@@ -1,0 +1,238 @@
+*{
+    margin:0;
+    padding:0;
+   
+}
+
+body{
+    background-color: white;
+
+}
+
+body a{
+    text-decoration: none;
+    color:white;
+}
+
+
+/* Icon Bar Styling Starts */
+
+.icon_bar{
+
+    background-color:rgb(11, 148, 11);
+  
+    padding:20px;
+ 
+    border-bottom: black;
+}
+
+.icon_bar ul{
+    display:flex;
+    gap:20px;
+    list-style: none;
+    font-size: 18px;
+    color:white;  
+    justify-content: right;  
+    
+
+}
+
+.icon_bar li:hover{
+    cursor: pointer;
+    padding:5px;
+  
+}
+
+
+/* Icon Bar Styling Starts */
+
+
+/* Top Bar Styling Starts */
+
+
+.top_bar{
+
+   background-color:rgb(11, 148, 11);
+   
+   color:white;
+   padding:20px;
+   border-bottom: solid black;
+
+}
+
+.top_bar a{
+    text-decoration: none;
+    color:white;
+}
+.top_bar ul{
+    display:flex;
+    list-style: none;
+    gap:50px;
+  
+    font-size: 18px;
+    
+}
+
+.top_bar .top_container{
+    display:flex;
+    gap:783px;
+}
+
+.top_bar .top_logo{
+    justify-content: left;
+}
+
+.top_bar .top_bar_list{
+    justify-content: right;
+}
+
+.top_bar li:hover{
+    cursor: pointer;
+    background-color:rgb(115, 196, 115);
+    color:white;
+    padding:5px;
+}
+
+
+/* Top Bar Styling Ends */
+
+
+/* Category Section Styling Starts */
+/* Recipe Box Styling Starts */
+
+.recipe_box{
+
+    background-color: black;
+    color:white;
+
+}
+
+.recipe_box h1{
+    text-align: center;
+    padding:50px;
+}
+
+.recipe_box .recipe_container1{
+    display:flex;
+    gap:50px;
+    padding:20px;
+    justify-content: center;
+}
+
+.recipe_box img{
+    padding:10px;
+    height:250px;
+    width:250px;
+}
+
+.recipe_box h3{
+text-align: center;
+background-color:rgb(11, 148, 11);
+padding:5px 18px 5px 0px;
+width:250px;
+}
+
+
+.recipe_box .recipe_container2{
+    display:flex;
+    gap:50px;
+    padding:20px;
+    justify-content: center;
+}
+
+.recipe_box img{
+    padding:10px;
+    height:250px;
+    width:250px;
+}
+
+.recipe_box h3{
+text-align: center;
+}
+
+
+.recipe_box .recipe_container3{
+    display:flex;
+    gap:50px;
+    padding:20px;
+    justify-content: center;
+}
+
+.recipe_box img{
+    padding:10px;
+    height:250px;
+    width:250px;
+    /* outline:solid green; */
+}
+
+.recipe_box h3{
+text-align: center;
+}
+
+/* Recipe Box Styling Ends */
+
+
+/* View More Button Styling Starts */
+
+.button_container h2{
+    text-align: center;
+    padding:10px;
+    background-color:black;
+    color:white;
+
+}
+
+
+
+.view_button h2:hover{
+    cursor: pointer;
+    
+}
+
+/* View More Button Styling Ends */
+
+/* Category Section Styling Endss */
+
+
+/* Footer Section Styling Starts */
+
+.footer{
+    background-color: black;
+    color:white;
+    padding:70px;
+    height:100px;
+}
+
+.footer .footer_container{
+    padding-top:20px;
+    display:flex;
+    list-style-type:none;
+    gap:100px;
+    /* text-align: center; */
+    justify-content: center;
+    border-top: 3px solid green ;
+   
+
+}
+
+.footer h3{
+    padding:10px;
+    color:white;
+}
+
+.footer li{
+
+    padding: 3px 0;
+}
+
+/* Footer Section Styling Ends */
+
+/* Copyright Section Styling Starts */
+
+.copyright_container{
+    background-color: black;
+    color:white;
+    padding:30px;
+}
+
+/* Copyright Section Styling Starts */

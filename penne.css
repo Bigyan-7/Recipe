@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding:0;
+   
+}
+
+body{
+    background-color: white;
+
+}
+
+
+
+/* Icon Bar Styling Starts */
+
+.icon_bar{
+
+    background-color:rgb(11, 148, 11);
+  
+    padding:20px;
+ 
+    border-bottom: black;
+}
+
+.icon_bar ul{
+    display:flex;
+    gap:20px;
+    list-style: none;
+    font-size: 18px;
+    color:white;  
+    justify-content: right;  
+    
+
+}
+
+.icon_bar li:hover{
+    cursor: pointer;
+    padding:5px;
+  
+}
+
+
+/* Icon Bar Styling Starts */
+
+
+/* Top Bar Styling Starts */
+
+
+.top_bar{
+
+   background-color:rgb(11, 148, 11);
+   
+   color:white;
+   padding:20px;
+   border-bottom: solid black;
+
+}
+
+.top_bar a{
+    text-decoration: none;
+    color:white;
+}
+.top_bar ul{
+    display:flex;
+    list-style: none;
+    gap:50px;
+  
+    font-size: 18px;
+    
+}
+
+.top_bar .top_container{
+    display:flex;
+    gap:783px;
+}
+
+.top_bar .top_logo{
+    justify-content: left;
+}
+
+.top_bar .top_bar_list{
+    justify-content: right;
+}
+
+.top_bar li:hover{
+    cursor: pointer;
+    background-color:rgb(115, 196, 115);
+    color:white;
+    padding:5px;
+}
+
+
+/* Top Bar Styling Ends */
+
+
+/* Recipe Section Styling Starts */
+
+
+.recipe{
+    background-color: black;
+    color:white;
+}
+
+.recipe h1{
+    color:green;
+    padding:20px;
+}
+
+.recipe h2{
+    color:white;
+    padding:20px;
+}
+
+.recipe p{
+
+    padding-top:10px;
+    padding-left:30px;
+
+}
+
+.recipe_container{
+    padding:30px;
+}
+.recipe_paragraph li{
+    list-style-type: circle;
+    padding:2px;
+    
+
+}
+
+.recipe{
+    display:flex;
+}
+
+.recipe img{
+    height:250px;
+    width:200px;
+    padding:60px;
+    justify-content: left;
+
+
+}
+
+
+/* Recipe Section Styling Ends */
+
+/* Footer Section Styling Starts */
+
+.footer{
+    background-color: black;
+    color:white;
+    padding:100px;
+    height:100px;
+}
+
+.footer .footer_container{
+    padding-top:20px;
+    display:flex;
+    list-style-type:none;
+    gap:100px;
+    /* text-align: center; */
+    justify-content: center;
+    border-top: 3px solid green ;
+   
+
+}
+
+.footer h3{
+    padding:10px;
+    color:white;
+}
+
+.footer li{
+
+    padding: 3px 0;
+}
+
+/* Footer Section Styling Ends */
+
+/* Copyright Section Styling Starts */
+
+.copyright_container{
+    background-color: black;
+    color:white;
+    padding:30px;
+}
+
+/* Copyright Section Styling Starts */
+
+
